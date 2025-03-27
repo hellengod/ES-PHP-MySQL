@@ -61,6 +61,11 @@ class Produto
 
     public function getImgCaminho(): string
     {
-        return ' img/' . $this->imagem;
+        return 'img/' . $this->imagem;
+    }
+    public function setImagem(string $imagem): void
+    {
+
+        $this->imagem = $imagem;
     }
 }
